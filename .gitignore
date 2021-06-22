@@ -1,0 +1,18 @@
+.classpath.txt
+target
+.classpath
+.project
+.idea
+.settings
+.vscode
+*.iml
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+asset/appspec.zip
+.java-version
+
+/task-def-function/.aws-sam/build/
+/lambda/__entrypoint__.js
+/lambda/node_modules/*

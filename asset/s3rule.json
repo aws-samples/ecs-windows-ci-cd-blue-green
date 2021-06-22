@@ -1,0 +1,26 @@
+{
+  "source": [
+    "aws.s3"
+  ],
+  "detail-type": [
+    "AWS API Call via CloudTrail"
+  ],
+  "detail": {
+    "eventSource": [
+      "s3.amazonaws.com"
+    ],
+    "eventName": [
+      "PutObject",
+      "CompleteMultipartUpload",
+      "CopyObject"
+    ],
+    "requestParameters": {
+      "bucketName": [
+        "BUCKET_NAME"
+      ],
+      "key": [
+        "BUCKET_KEY"
+      ]
+    }
+  }
+}
