@@ -76,7 +76,7 @@
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-codedeploy</artifactId>
-            <version>1.12.119</version>
+            <version>1.12.120</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
